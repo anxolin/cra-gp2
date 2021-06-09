@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { BUY_ETH_ADDRESS } from '@gnosis.pm/gp-v2-contracts'
+
 function App() {
+  console.log({ BUY_ETH_ADDRESS })
   return (
     <div className="App">
       <header className="App-header">
